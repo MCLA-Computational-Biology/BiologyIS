@@ -16,6 +16,12 @@ h1
 {
 	text-align:center;
 }
+img
+{
+	width:640px;
+	height:400px;
+	float:right;
+}
 table
 {
 	border-width: 1px;
@@ -66,23 +72,13 @@ a:active
 .link-header
 {
 	float: left;
-	width: 25%;
+	width:25%;
 	text-align: center;
 }
 
-.form-center
+.form-padded
 {
-	margin-left:auto;
-	margin-right:auto;
-	width: 500px;
-	border: 1px black solid;
-}
-
-img
-{
-	width:640px;
-	height:400px;
-	float:right;
+	padding-left:200px;
 }
 
 #container
@@ -173,6 +169,13 @@ img
 	border-color: black;
 	border-radius: 10px;
 	box-shadow: 10px 10px #187641;
+}
+
+#login-form-center
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 250px;
 }
 
 #login-container-footer

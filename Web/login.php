@@ -1,7 +1,5 @@
 <?php
-
 	$page = "Bio-Home";
-
 ?>
 
 
@@ -14,11 +12,11 @@
 		<div>
 			<div id="login-container">
 				<h1>LOG-IN</h1>
-				<div class='form-center'>
+				<div id='login-form-center'>
 					<form action="index.php" method="post">
 						Username: <input type="text" name="username"/><br/>
 						Password: <input type="text" name="password"/><br/>
-						<input type="hidden" name="page" value="<?= $page?>"/>
+						<input type="hidden" name="page" value="<?=$page?>"/>
 						<input type="submit" value="Submit"/>
 					</form>
 				</div>
@@ -43,7 +41,7 @@
 						<ul>
 							<li>Other?</li>
 							<li><a href="http://www.youtube.com"  target="_blank">Youtube</a></li>
-							<li><a href="http://www.youtube.com"  target="_blank">Twitter</a></li>
+							<li><a href="http://www.youtube.com"  target="_blank ">Twitter</a></li>
 							<li><a href="http://www.youtube.com"  target="_blank">Facebook</a></li>
 						</ul>
 					</div>
