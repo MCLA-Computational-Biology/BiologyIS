@@ -1,7 +1,8 @@
 cd C:\Users\Kurtiss Keefner\Desktop\BioProject\BiologyIS
 git add .
-git commit -a -m "put message here"
+git commit -a -m "added php files for each type of page content, which cleaned up index"
 git push origin master
+pause
 
 
 REM 1) adds any new files in your directory to your local repository
