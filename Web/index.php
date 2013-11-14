@@ -13,6 +13,7 @@
 	require_once("bioblast.php");
 	require_once("forms.php");
 	require_once("error.php");
+	require_once("javascript.php");
 	
 	
 	$page = "";
@@ -34,6 +35,7 @@
 	
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<?=scriptPopUp()?>
 		<title><?=$page?></title>
 	</head>
 	<body>
@@ -41,7 +43,7 @@
 			<?=createHeader()?>
 		</div>
 		<div id='content'>
-			<?=createContent($page)?> <!--returns a string of html text-->
+			<?=createContent($page)?><!--returns a string of html text-->
 		</div>
 		</div>
 		<div class="footer">
@@ -80,12 +82,5 @@ function createContent($page)
 			break;
 	}
 }
-
-
-
-
-
-
-
 ?>
 	

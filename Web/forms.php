@@ -3,27 +3,26 @@
 	/* FORMS FILE
 		- holds all of the HTML for the forms in order to reduce copied code 
 	*/
+	
+	// Tank Form
 	function createTankForm()
 	{
-		$page = "Bio-New";
-		return "<form class='form-padded' action='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New' method='post'>
+		return "
 				Name: <input type='text' name='tankname'/><br/>
 				Target-Temp: <input type='text' name='targettemp'/><br/>
 				Salinity: <input type='text' name='salinity'/><br/>
 				Size gal.: <input type='text' name='tanksize'/><br/>
 				Monoculture: <input type='name='monoculture'/><br/>
-				<input type='hidden' name='page' value='$page'/>
-				<input type='submit' value='OK'/>
-				</form>";
+				";
 	}
 	
+	//Organism Form
 	function createOrganismForm()
 	{
-		$page = "Bio-New";
-		return 	"<form class='form-padded' action='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New' method='post'>
-						Tank: <select name='tank'> 
+		return 	"
+						Tank: <select name='tank'>
 							<option></option>
-							<option>One</option>
+							<option>One</option
 							<option>Two</option>
 							</select><br/>
 						Phylum: <select name='phylum'>
@@ -36,7 +35,7 @@
 							<option>Britain</option>
 							<option>Cape Code</option>
 							</select><br/>
-						Lat/Lon: <input type='text' name='latitude'/> <input type='text' name='longitude'/><br/>
+						Lat: <input type='text' name='latitude'/> Lon:<input type='text' name='longitude'/><br/>
 						Genus: <select name='genus'>
 							<option></option>
 							<option>Genus1</option>
@@ -49,8 +48,12 @@
 							<option>Species3</option>
 							</select><br/>
 						Nickname: <input type='text' name='nickname'/><br/>
-						<input type='hidden' name='page' value='<?= $page?>'/>
-						<input type='submit' value='OK'/>
-					</form>";
+					";
 	}
+	//
+	
+	
+	
+	
+	
 ?>

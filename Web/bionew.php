@@ -20,10 +20,13 @@
 	{
 		$page = "Bio-New";
 		$organismForm = createOrganismForm();
+		$tankOverlay= divTester(createTankForm());
 		$html = "
 					<div id='contentText'>
 						<h1>New Organism</h1>
+						$tankOverlay
 						$organismForm
+						<p style='float:left'><a href='#' onclick='overlay(false)'>New Tank</a></p>
 					</div>
 				"
 				;
