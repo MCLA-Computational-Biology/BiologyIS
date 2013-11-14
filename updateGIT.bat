@@ -1,6 +1,6 @@
 cd C:\Users\Kurtiss Keefner\Desktop\BioProject\BiologyIS
 git add .
-git commit -a -m "added php files for each type of page content, which cleaned up index"
+git commit -a -m "added javascript functionality (overlay), and edited forms to remove buttons"
 git push origin master
 pause
 
