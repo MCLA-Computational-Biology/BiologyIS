@@ -13,15 +13,14 @@ body
 form
 {
 }
-h1
+h1, h2, h3
 {
 	text-align:center;
 }
 img
 {
-	width:640px;
+	width:500px;
 	height:400px;
-	float:right;
 }
 table
 {
@@ -169,12 +168,13 @@ a:active
 	padding-top:5px;
 	padding-left:5px;
 	padding-bottom:5px;			
-	padding-right:5px;			
+	padding-right:5px;
+	min-height:400px;	
 }
 
 #contentText
 {
-	min-height:400px;
+	float:left;
 }
 
 #footer

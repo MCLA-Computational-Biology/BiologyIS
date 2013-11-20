@@ -18,7 +18,8 @@
 							<li class='link-header'><a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-Blast'>Run Blast</a></li>
 							<div class='float-clear'></div>
 						</ul>
-					</div>"
+					</div>
+				</div>"
 				;
 		return $html;
 		

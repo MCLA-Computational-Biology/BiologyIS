@@ -71,16 +71,40 @@ function createContent($page)
 		case "Bio-New-Tank":
 			return createBioNewTankContent();
 			break;
+		case "Bio-New-Plate":
+			return createBioNewPlateContent();
+			break;
+		case "Bio-New-Bacteria":
+			return createBioNewBacteriaContent();
+			break;
+		case "Bio-New-Colony":
+			return createBioNewColonyContent();
+			break;
+		case "Bio-New-Sequence":
+			return createBioNewSequenceContent();
+			break;
 		case "Bio-Edit":
 			return createBioEditContent();
 			break;
 		case "Bio-Blast":
 			return createBioBlastContent();
 			break;
+		case "Griffin":
+			return createGriffinContent();
+			break;
 		default:
 			return createErrorContent();
 			break;
 	}
+	
+
+}	
+//Griffin easter egg
+function createGriffinContent()
+{
+	return "
+			<p style='text-align:center'><img src='griffin.jpg'></p>
+			";
 }
 ?>
 	
