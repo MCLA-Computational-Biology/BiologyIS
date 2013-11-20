@@ -1,6 +1,7 @@
 cd C:\Users\Kurtiss Keefner\Desktop\BioProject\BiologyIS
+git pull -m "pulled"
 git add .
-git commit -a -m "added javascript functionality (overlay), and edited forms to remove buttons"
+git commit -a -m "added forms"
 git push origin master
 pause
 

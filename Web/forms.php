@@ -57,27 +57,27 @@
 						<option>One</option
 						<option>Two</option>
 						</select><br/>
-					Phylum: <select name='phylum'> and create new phylum popup
+					Phylum: <select name='phylum'>
 						<option></option>
 						<option>Phylum1</option>
 						<option>Phylum2</option>
-						</select><br/>
-					Location: <select name='location'> and create new location popup
+						</select> and create new phylum popup<br/>
+					Location: <select name='location'> 
 						<option></option>
 						<option>Britain</option>
 						<option>Cape Code</option>
-						</select><br/>
-					Genus: <select name='genus'> and create new genus popup
+						</select>and create new location popup<br/>
+					Genus: <select name='genus'> 
 						<option></option>
 						<option>Genus1</option>
 						<option>Genus2</option>
-						</select><br/>
-					Species: <select name='species'> and create new species popup
+						</select>and create new genus popup<br/>
+					Species: <select name='species'> 
 						<option></option>
 						<option>Species1</option>
 						<option>Species2</option>
 						<option>Species3</option>
-						</select><br/>
+						</select>and create new species popup<br/>
 					Lat: <input type='text' name='latitude'/> Lon:<input type='text' name='longitude'/><br/>
 					Nickname: <input type='text' name='nickname'/><br/>
 				";
@@ -115,7 +115,7 @@
 						</select>and create new fridge popup<br/>
 					Colony Number: <input type='text' name='platecolonynumber'/><br/>
 					Letter: <input type='text' name='plateletter'/><br/>
-					Homogenize: <input type='text' name='platehomogenize'/><br/>
+					Homogenize: <input type='text' name='platehomogenize'/> homegenate microliters<br/>
 					Agar: <input type='text' name='plateagar'/><br/>
 					Date: <input type='text' name='platedate'/>calendar?<br/> 
 					Temperature (Celsius?): <input type='text' name='platetemp'/><br/>
