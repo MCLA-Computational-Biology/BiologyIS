@@ -1,5 +1,5 @@
 cd C:\Users\Kurtiss Keefner\Desktop\BioProject\BiologyIS
-git pull -m "pulled"
+git pull
 git add .
 git commit -a -m "added forms"
 git push origin master
