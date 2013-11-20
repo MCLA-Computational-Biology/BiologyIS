@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+   	  <style type="text/css">   
+   		*
+   		{
+			margin: 0;
+			padding: 0;
+		}
+	
+   	  	body
+   	  	{
+   	  		color: white;
+			background-color:#48036f;
+   	  	}
+
+   	  	h1
+   	  	{
+	   	  	text-align:center;
+   	  	}
+   	  	
+   	  	ul
+		{
+			list-style-type: none;
+		}
+		
+		/* order of these is important */
+		a:link 
+		{
+			color: white;
+		}      
+		
+		a:visited 
+		{
+			color: white;
+		}  
+		
+		a:hover 
+		{
+			color: #48036f;
+		}  
+		
+		a:active 
+		{
+			color: white;
+		}  
+
+		#container
+		{
+			background-color:#48036f;
+
+			min-width: 800px;
+		 	width: 99%; /* keep browser from always using horizontal scroll */
+		}
+
+   	  	#header
+   	  	{
+   	  	   	padding-top:5px;
+			padding-bottom:5px;			
+   	  	}
+   	  	
+   	  	/* total width is: 22 + 2 = 24% */
+   	  	#menu
+   	  	{
+			border-width: 1px;
+			border-style: solid;
+			border-color: black;
+			border-radius: 10px;
+			box-shadow: 10px 10px #7109aa; /* h-shadow, v-shadow, color */
+
+   	  		background-color:#ad66d5;
+   	  		width:22%;
+
+			margin-left:2%;
+			
+   	  		padding-top:5px;
+			padding-left:10px;
+			padding-bottom:5px;			
+			padding-right:5px;			
+
+			float:left;
+   	  	}
+   	  	
+   	  	/* total width is 33 + 2 = 35% 
+   	  		with two columns, for a grand total of 94% */
+   	  	#content
+   	  	{
+			border-width: 1px;
+			border-style: solid;
+			border-color: black;
+			box-shadow: 10px 10px #7109aa; /* h-shadow, v-shadow, color */
+			background-color:#ad66d5;
+			width:33%;
+			
+			margin-left:2%;
+
+   	  		padding-top:5px;
+			padding-left:5px;
+			padding-bottom:5px;			
+			padding-right:5px;			
+			
+			float:left;
+   	  	}
+
+   	  	#contentText
+   	  	{
+   	  		min-height:400px;
+   	  	}
+   	  	
+   	  	#footer
+   	  	{
+   	  		text-align:right;
+			padding-top:20px;
+			padding-right:10px;
+   	  		clear:both;
+   	  	}
+	  </style>
+   </head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Main Title of Web Page</h1>
+		</div>
+
+		<div id="menu">
+			<p><h3>Menu</h3></p>
+			<ul>
+			<li><a href="http://www.mcla.edu">Item 1</a></li>
+			<li><a href="http://www.mcla.edu">Item 2</a></li>
+			<li><a href="http://www.mcla.edu" target="_blank">Item 3</a></li>			
+			</ul>
+		</div>
+
+		<div id="content">
+			<p id="contentText">Content goes here</p>
+		</div>
+
+		<div id="content">
+			<p id="contentText">Content goes here</p>
+		</div>
+
+		<div id="footer">
+			Copyright &copy; 2012 Coolwebsite.com
+		</div>
+	</div>
+</body>
+</html>

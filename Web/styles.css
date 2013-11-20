@@ -1,0 +1,216 @@
+/*CSS For Bio Tools Site-->
+*
+{
+	margin: 0;
+	padding: 0;
+}*/
+
+/*HTML Styles*/
+body
+{
+	background-color: #B2EDCB;
+}
+form
+{
+}
+h1
+{
+	text-align:center;
+}
+img
+{
+	width:640px;
+	height:400px;
+	float:right;
+}
+table
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+td
+{
+	padding-left:5em;
+}
+ul
+{
+	list-style-type:none;
+}
+
+
+/* order of these is important */
+a:link 
+{
+	color: #C6F9C6;
+}      
+a:visited 
+{
+	color: #C6F9C6;
+}  
+a:hover 
+{
+	color:#187641;
+}  
+a:active 
+{
+	color: #C6F9C6;
+}  
+
+/*HTML Classes*/
+.float-clear
+{
+	height: 1px;
+	margin-bottom: -1px; /* hack to make browser think this has a height */
+	clear: both;
+}	
+
+.link-column
+{
+	float:left;
+	width:33%;
+}		
+
+.link-header
+{
+	float: left;
+	width:25%;
+	text-align: center;
+}
+
+.form-padded
+{
+	padding-left:200px;
+}
+/*Javascript styles*/
+#overlay div 
+{
+	 width:300px;
+	 margin-top: 100px;
+	 margin-left: auto;
+	 margin-right:auto;
+	 background-color: #323299;
+	 border:1px solid #187641;
+	 padding:15px;
+	 text-align:center;
+}
+
+#overlay 
+{
+	 visibility: hidden;
+	 position: absolute;
+	 left: 0px;
+	 top: 0px;
+	 width:100%;
+	 height:100%;
+	 text-align:center;
+	 z-index: 1000;
+	 /*background-image:url('check.jpg');*/
+}
+
+/*HTML IDs*/
+#container
+{
+	background-color:#B2EDCB;
+	min-width: 800px;
+	width: 99%; /* keep browser from always using horizontal scroll */
+}
+
+#header
+{
+	padding-top:5px;
+	padding-bottom:5px;			
+}
+
+#menu-top
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	box-shadow: 10px 10px #187641; /* h-shadow, v-shadow, color */
+	background-color:#78DAA3;
+	width:96%;
+	padding-top:5px;
+	padding-left:5px;
+	padding-bottom:5px;			
+	padding-right:5px;	
+	margin-left:2%;	
+	margin-bottom:20px;
+}
+
+#menu-bottom
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	box-shadow: 10px 10px #187641; /* h-shadow, v-shadow, color */
+	background-color:#78DAA3;
+	width:96%;
+	padding-top:5px;
+	padding-left:5px;
+	padding-bottom:5px;			
+	padding-right:5px;	
+	margin-left:2%;	
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+#content
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 10px 10px #187641; /* h-shadow, v-shadow, color */
+	background-color:#78DAA3;
+	width:96%;
+	margin-left:2%;
+	padding-top:5px;
+	padding-left:5px;
+	padding-bottom:5px;			
+	padding-right:5px;			
+}
+
+#contentText
+{
+	min-height:400px;
+}
+
+#footer
+{
+	text-align:right;
+	padding-top:20px;
+	padding-right:10px;
+}
+
+#login-container
+{
+	background-color: #78DAA3;
+	width: 500px;
+	height: 300px;
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	box-shadow: 10px 10px #187641;
+}
+
+#login-form-center
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 250px;
+}
+
+#login-container-footer
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	text-align:center;
+}
+
