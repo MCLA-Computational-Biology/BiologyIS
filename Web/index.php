@@ -35,7 +35,7 @@
 	
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css">
-		<?=scriptPopUp()?>
+		<script src="submissionHandlers.js"></script>
 		<title><?=$page?></title>
 	</head>
 	<body>

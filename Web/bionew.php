@@ -22,7 +22,7 @@
 	{
 		$page = "Bio-New";
 		$organismForm = createOrganismForm();
-		$tankOverlay= divTester(createTankForm());
+		$tankOverlay= divTester(createTankForm(), "okayHandler");
 		$html = "
 					<h1>New Organism</h1>
 					$tankOverlay
@@ -30,7 +30,7 @@
 					$organismForm
 					<input type='submit' value='Ok'>
 					</form>
-					<p style='float:left'><a href='#' onclick='overlay(false)'>New Tank</a></p>
+					<p style='float:left'><a href='#' onclick='visibilityHandler()'>New Tank</a></p>
 				"
 				;
 		return $html;

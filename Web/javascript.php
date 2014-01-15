@@ -1,30 +1,16 @@
 <?php
 
-	// JAVASCRIPT
-	// This file contains all of the javascript scripts to be used on the site
+	// Overlay
+	// This file contains the overlay div function
 
-	function scriptPopup()
-	{
-		return	"<script>
-					function overlay(okhit) 
-					{
-						var el = document.getElementById('overlay');
-						el.style.visibility = (el.style.visibility == 'visible') ? 'hidden' : 'visible';
-						if (okhit)
-						{
-							
-						}
-					}		
-				</script>";
-	}
-	
-	function divTester($form)
+	function divTester($form, $okayHandler)
 	{
 		return	"<div id='overlay'>
 					 <div>
 						  $form
-						  [<a href='#' onclick='overlay(true)'>OK</a>]
-						  [<a href='#' onclick='overlay(false)'>Cancel</a>]
+						  <!-- If Okay then Handle, Else then cancel/hide div-->
+						  [<a href='#' onclick='$okayHandler()'>OK</a>]
+						  [<a href='#' onclick='visibilityHandler()'>Cancel</a>]
 					 </div>
 				</div>";
 	}
