@@ -1,7 +1,7 @@
 cd C:\Users\Kurtiss Keefner\Desktop\BioProject\BiologyIS
-git pull
+git pull origin master
 git add .
-git commit -a -m "added forms"
+git commit -a -m "msg"
 git push origin master
 pause
 
@@ -14,3 +14,4 @@ REM git origin master
 REM git merge origin master
 REM username = mclacs
 REM password = mclacs1
+REM git status to see what has changed
