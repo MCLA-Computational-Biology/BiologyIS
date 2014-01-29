@@ -22,11 +22,12 @@
 	{
 		$page = "Bio-New";
 		$organismForm = createOrganismForm();
-		$tankOverlay= divTester(createTankForm(), "okayHandler");
+		$tankOverlay= divOverlay(createTankForm(), "okayHandler");		
+		
 		$html = "
 					<h1>New Organism</h1>
 					$tankOverlay
-					<form name='organismform' action='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New' method='post'>
+					<form name='organismform' action='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New' method='get'>
 					$organismForm
 					<input type='submit' value='Ok'>
 					</form>
@@ -42,9 +43,11 @@
 		$tankForm = createTankForm();
 		$html = "
 					<h1>New Tank</h1>
-					<form name='tankform' action='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New' method='post'>
+					<form name='tankform' action='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php' method='get'>
 					$tankForm
+					<input type='hidden' id='page' name='page' value='Bio-New'>
 					<input type='submit' value='Ok'>
+					
 					</form>
 				"
 				;

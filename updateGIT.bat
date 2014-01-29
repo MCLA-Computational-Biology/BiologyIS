@@ -1,7 +1,7 @@
 cd C:\Users\Kurtiss Keefner\Desktop\BioProject\BiologyIS
 git pull origin master
 git add .
-git commit -a -m "msg"
+git commit -m "msg"
 git push origin master
 pause
 
