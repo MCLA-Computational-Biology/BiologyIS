@@ -8,12 +8,12 @@
 	{
 		return "
 					<h1>What Would You Like To Create?</h1>
-					<a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New-Organism'>Organism</a><br/>
-					<a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New-Tank'>Tank</a><br/>
-					<a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New-Plate'>Plate</a><br/>
-					<a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New-Bacteria'>Bacteria</a><br/>
-					<a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New-Colony'>Colony</a><br/>
-					<a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New-Sequence'>Sequence</a><br/>
+					<a href='index.php?page=Bio-New-Organism'>Organism</a><br/>
+					<a href='index.php?page=Bio-New-Tank'>Tank</a><br/>
+					<a href='index.php?page=Bio-New-Plate'>Plate</a><br/>
+					<a href='index.php?page=Bio-New-Bacteria'>Bacteria</a><br/>
+					<a href='index.php?page=Bio-New-Colony'>Colony</a><br/>
+					<a href='index.php?page=Bio-New-Sequence'>Sequence</a><br/>
 				"
 				;
 	}
@@ -27,7 +27,7 @@
 		$html = "
 					<h1>New Organism</h1>
 					$tankOverlay
-					<form name='organismform' action='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New' method='get'>
+					<form name='organismform' action='index.php?page=Bio-New' method='get'>
 					$organismForm
 					<input type='submit' value='Ok'>
 					</form>
@@ -43,9 +43,10 @@
 		$tankForm = createTankForm();
 		$html = "
 					<h1>New Tank</h1>
-					<form name='tankform' action='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php' method='get'>
+					<form name='tankform' action='index.php' method='get'>
 					$tankForm
 					<input type='hidden' id='page' name='page' value='Bio-New'>
+					<input type='hidden' id='formType' name='formType' value='New-Tank'>
 					<input type='submit' value='Ok'>
 					
 					</form>

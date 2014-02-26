@@ -32,11 +32,11 @@
 	function createTankForm()
 	{
 		return "
-				Name: <input type='text' name='tankname' id='tankname'/>???????<br/>
-				Target-Temp: <input type='text' name='targettemp' id='targettemp'/><br/>
-				Salinity: <input type='text' name='salinity' id='salinity'/><br/>
-				Size gal.: <input type='text' name='tanksize' id='tanksize'/><br/>
-				Monoculture: <input type='name='monoculture' id='monoculture'/><br/>
+				Tank Number: <input type='text' name='tank_number' id='tank_number'/><br/>
+				Target-Temp: <input type='text' name='tank_targettemp' id='tank_targettemp'/><br/>
+				Salinity: <input type='text' name='tank_salinity' id='tank_salinity'/><br/>
+				Size gal.: <input type='text' name='tank_tanksize' id='tank_tanksize'/><br/>
+				Monoculture: <input type='text' name='tank_monoculture' id='tank_monoculture'/><br/>
 				";
 	}
 	

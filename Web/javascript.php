@@ -2,7 +2,8 @@
 
 	// Overlay
 	// This file contains the overlay div function
-
+	// $form - the form passed
+	// $okayHandler - the submission handler method called upon 'ok'
 	function divTester($form, $okayHandler)
 	{
 		return	"<div id='overlay'>

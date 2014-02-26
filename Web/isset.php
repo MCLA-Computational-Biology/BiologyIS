@@ -1,7 +1,4 @@
 <?php
-	
-	
-
 
 function getIsset($value, $default)
 {

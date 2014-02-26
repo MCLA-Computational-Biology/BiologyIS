@@ -12,10 +12,10 @@
 
 					<div id='menu-top'>
 						<ul>
-							<li class='link-header'><a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-Home'>Home</a></li>
-							<li class='link-header'><a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-New'>New</a></li>
-							<li class='link-header'><a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-Edit'>Edit/Manage</a></li>
-							<li class='link-header'><a href='http://enterprise.cs.mcla.edu/kkeefner/BioProject/index.php?page=Bio-Blast'>Run Blast</a></li>
+							<li class='link-header'><a href='index.php?page=Bio-Home'>Home</a></li>
+							<li class='link-header'><a href='index.php?page=Bio-New'>New</a></li>
+							<li class='link-header'><a href='index.php?page=Bio-Edit'>Edit/Manage</a></li>
+							<li class='link-header'><a href='index.php?page=Bio-Blast'>Run Blast</a></li>
 							<div class='float-clear'></div>
 						</ul>
 					</div>
